@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #4c7cc9;
+    font-family: 'Microsoft YaHei', 'Hiragino Sans GB', sans-serif;
+    font-size: 2.8rem;
+    font-weight:900;
+    text-shadow: 2px 2px 0px #c0c3c5;
+    margin-bottom: 20px;
+    letter-spacing: 1px; /* 增加字间距让中文更清晰 */
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(179, 212, 236, 0.33);
+    border-radius: 4px;
+}
+
+.display-area {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid rgba(179, 212, 236, 0.33);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.object-display img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    margin-bottom: 10px;
+}
+
+.number-string-object {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(179, 212, 236, 0.33);
+    border-radius: 4px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6ba5cf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover:not(:disabled) {
+    background-color: #72afdb;
+}
+
+button:disabled {
+    background-color: #ffffff;
+    cursor: not-allowed;
+}
